@@ -24,12 +24,12 @@ fun main() {
     /*Double (64 Bit)
     Sama halnya dengan Long yang memiliki ukuran yang besar, Double mampu menyimpan nilai numerik yang besar pula. Pada umumnya Double digunakan untuk menyimpan nilai numerik pecahan sampai dengan maksimal 15-16 angka di belakang koma
      */
-    val douubleNumber: Double = 1.3
+    val douubleNumber = 1.3
 
     /*Float (32 Bit)
     Sama seperti Double, namun memiliki ukuran yang lebih kecil, yakni hanya sampai 6-7 angka di belakang koma
      */
-    val floatNumber: Float = 0.123456789f
+    //val floatNumber: Float = 0.123456789f
 
     //Untuk mengetahui nilai maksimal tipe Number (MAX_VALUE) sementara nilai minimal (MIN_VALUE)
     val maxInt = Int.MAX_VALUE
@@ -43,10 +43,10 @@ fun main() {
     println(minLong)
 
     //jika kita memasukan nilai yang melebihi nilai maksimal, maka akan terjadi overflow. Nilai yang akan dikembalikan adalah nilai minimal yang dapat disimpan
-    val overRangeInt = Int.MAX_VALUE + 1 //This Operation has led to an overflow
+    //val overRangeInt = Int.MAX_VALUE + 1 //This Operation has led to an overflow
 
-    println("Max Int: $maxInt")
-    println("Over range Int: $overRangeInt")
+    //println("Max Int: $maxInt")
+    //println("Over range Int: $overRangeInt")
 
     //Output :
     //Max Int: 2147483647
